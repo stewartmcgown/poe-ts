@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d99ef7f-04b3-4a03-a45a-aa3ab99d933d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/PoeBot.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/jest.setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/base.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/templates.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/chat.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.modules.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.modules.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/ajv-compiler" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/ajv-compiler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/error" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/error" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/fast-json-stringify-compiler" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/@fastify/fast-json-stringify-compiler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/ajv-formats" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/ajv-formats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/avvio" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/avvio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/cookie" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/cookie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/fast-content-type-parse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/fast-json-stringify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/fast-json-stringify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/fast-uri" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/fast-uri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/find-my-way" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/find-my-way" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/light-my-request" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/light-my-request" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/process-warning" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/process-warning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/ret" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/ret" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/safe-regex2" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/safe-regex2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/secure-json-parse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/node_modules/secure-json-parse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fastify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fastify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fastify-sse-v2" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fastify-sse-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +78,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.PoeBot (1)">
+  <component name="RunManager" selected="Jest.PoeBot.should generate basic text event">
     <configuration name="PoeBot (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -74,22 +91,64 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="PoeBot" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="PoeBot (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/lib/__tests__/PoeBot.spec.ts" />
+      <test-file value="$PROJECT_DIR$/__tests__/chat.e2e-spec.ts" />
       <test-names>
         <test-name value="PoeBot" />
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="PoeBot (3)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/chat.spec.ts" />
+      <test-names>
+        <test-name value="PoeBot" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PoeBot2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/PoeBot.spec.ts" />
+      <test-names>
+        <test-name value="PoeBot2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PoeBot.should generate basic text event" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs>
+        <env name="POE_ACCESS_KEY" value="jrfC3jUCyF3aUxPTtm9eYTEcBNDJTvgi" />
+      </envs>
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/chat.spec.ts" />
+      <test-names>
+        <test-name value="PoeBot" />
+        <test-name value="should generate basic text event" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.PoeBot.should generate basic text event" />
+        <item itemvalue="Jest.PoeBot (3)" />
+        <item itemvalue="Jest.PoeBot2" />
         <item itemvalue="Jest.PoeBot (1)" />
-        <item itemvalue="Jest.PoeBot" />
+        <item itemvalue="Jest.PoeBot (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735349063949</updated>
-      <workItem from="1735349065166" duration="1288000" />
+      <workItem from="1735349065166" duration="3406000" />
     </task>
     <servers />
   </component>

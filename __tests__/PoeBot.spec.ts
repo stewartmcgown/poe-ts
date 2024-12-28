@@ -24,6 +24,7 @@ describe('PoeBot', () => {
         test('should generate basic text event', () => {
             const event = bot['textEvent']('Hello');
             expect(event).toEqual({
+                id: "1",
                 data: JSON.stringify({ text: 'Hello' }),
                 event: 'text'
             });
@@ -54,10 +55,12 @@ describe('PoeBot', () => {
 
             expect(events).toHaveLength(2); // text event + done event
             expect(events[0]).toEqual({
+                id: "1",
                 data: JSON.stringify({ text: 'hello' }),
                 event: 'text'
             });
             expect(events[1]).toEqual({
+                id: "1",
                 data: '{}',
                 event: 'done'
             });
