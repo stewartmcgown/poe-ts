@@ -12,3 +12,5 @@ jobs:
       run: pnpm i
     - name: Run tests
       run: pnpm test
+      env:
+          POE_ACCESS_KEY: ${{ secrets.POE_ACCESS_KEY }}
