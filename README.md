@@ -1,6 +1,3 @@
-Here's a comprehensive README.md for the project:
-
-```markdown
 # Poe Bot TypeScript Server Framework
 
 A robust TypeScript framework for building and deploying chatbots on [Poe](https://poe.com). This framework provides a complete server implementation for creating custom bots that can interact with users through the Poe platform.
